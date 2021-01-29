@@ -11,11 +11,11 @@ Integrate WP app with slack.com (Slack Auth - Create Channel - Fetch All Workspa
 ----------------------------------------------------------------------------------------------------------------------------
 4- Create Custom MetaBox -(to prevent user from key insertion..only value will be inserted)- using :
 
-   -the key is slack_api_key
-   -the value given from slack app
-   -wporg_add_custom_box()
-   -add_action('add_meta_boxes','wporg_add_custom_box')
-   -save_post()
+   * the key is slack_api_key
+   * the value given from slack app
+   * wporg_add_custom_box()
+   * add_action('add_meta_boxes','wporg_add_custom_box')
+   * save_post()
    
 ----------------------------------------------------------------------------------------------------------------------------   
 5- register the past functions in register_activation_hook() to appear for user after plugin activated
@@ -24,18 +24,18 @@ Integrate WP app with slack.com (Slack Auth - Create Channel - Fetch All Workspa
 ----------------------------------------------------------------------------------------------------------------------------
 7- choose the proper action for the hook to fire this function from the following :
 
-   -add-action('init','fetching_slack_data')
-   -add-action('plugin_loaded','fetching_slack_data')
-   -add-action('admin_notices','fetching_slack_data')
+   * add-action('init','fetching_slack_data')
+   * add-action('plugin_loaded','fetching_slack_data')
+   * add-action('admin_notices','fetching_slack_data')
    
 ----------------------------------------------------------------------------------------------------------------------------   
 * we may use : add_short_code() do_short_code()
 ----------------------------------------------------------------------------------------------------------------------------
 8- if you create options file use :
 
-   -update_option()
-   -get_option()
-   -delete_option()
+   * update_option()
+   * get_option()
+   * delete_option()
    
 ----------------------------------------------------------------------------------------------------------------------------   
 9- Create function to uninstalling the plugin to remove the data from DB using this hook register_activation_hook()
