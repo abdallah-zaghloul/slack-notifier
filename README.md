@@ -5,7 +5,7 @@ Integrate WP app with slack.com (Slack Auth - Create Channel - Fetch All Workspa
                                 ---------------------------
 1- Create New Folder Called slack-notifier in the wp-content/plugins/
 ----------------------------------------------------------------------------------------------------------------------------
-2- Create the main php file for the plugin in the created dir called slack-notifier.php
+2- Create the main php file for the plugin in the created dir and name it as slack-notifier.php
 ----------------------------------------------------------------------------------------------------------------------------
 3- Create Your Header Comment
 ----------------------------------------------------------------------------------------------------------------------------
