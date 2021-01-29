@@ -23,5 +23,6 @@ Integrate WP app with slack.com (Slack Auth - Create Channel - Fetch All Workspa
    -update_option()
    -get_option()
    -delete_option()
-
+9- Create function to uninstalling the plugin to remove the data from DB using this hook register_activation_hook()
+10-Create function for deactivation of the plugin using this hook register_deactivation_hook()
    
